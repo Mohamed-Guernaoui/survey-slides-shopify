@@ -461,61 +461,6 @@ function SurveyForm({
   ];
 
   // TODO: Add preRender Component Survey here ⬇
-  // if (survey.type !== "Form") {
-  //   return (
-  //     <BlockStack gap="400">
-  //       <Text variant="headingLg" as="h5">
-  //         {"Answer Options"}
-  //       </Text>
-  //       {/* {survey.inputes.Optionsfilds?.map((option, i) => {
-  //         return (
-  //           <div key={i}>
-  //             <BlockStack gap="400">
-  //               {option.Ansewers.map((Answer, i) => {
-  //                 return (
-  //                   <div key={i}>
-  //                     <Text variant="headingXs" as="h6">
-  //                       Options {Answer.id}
-  //                     </Text>
-  //                     <TextField
-  //                       onChange={(e) => {
-  //                         HandelTheAnswerOption(e, option.id, Answer.id);
-  //                       }}
-  //                       label=""
-  //                       value={Answer.value}
-  //                       type={"text"}
-  //                       autoComplete="off"
-  //                     />
-  //                   </div>
-  //                 );
-  //               })}
-  //               <Button
-  //                 // onClick={() => {
-  //                 //   AddNewField();
-  //                 // }}
-  //                 variant="plain"
-  //                 tone="critical"
-  //                 icon={PlusIcon}
-  //               >
-  //                 More Options{" "}
-  //               </Button>
-  //               <Button
-  //                 // onClick={() => {
-  //                 //   AddNewField();
-  //                 // }}
-  //                 variant="primary"
-  //                 tone="success"
-  //                 icon={PlusIcon}
-  //               >
-  //                 Add Field In{" "}
-  //               </Button>
-  //             </BlockStack>
-  //           </div>
-  //         );
-  //       })} */}
-  //     </BlockStack>
-  //   );
-  // }
 
   return (
     <BlockStack gap="400">
